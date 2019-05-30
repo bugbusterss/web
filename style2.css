@@ -1,0 +1,35 @@
+﻿*{
+
+margin: 0;
+padding: 0;
+}
+body {
+background-image: url(logo.jpeg);
+background-size: cover;
+}
+.nav-area ul li ul {
+display: none;
+position: absolute;
+background-color:#fff;
+padding: 10px;
+border-radius: 10px;
+}
+.nav-area ul li:hover ul {
+display: block;
+
+}
+
+
+.nav-area ul li ul li  {
+width: 180px;
+border-radius: 4px;
+}
+
+.nav-area ul li ul li a {
+padding: 8px 14px;
+}
+.nav-area ul li ul li a:hover {
+background-color: #f3f3f3;
+}
+
+
